@@ -1,0 +1,102 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="rus">
+        
+    <head>
+        <meta name="author" content="Maya">
+        <meta name="description" content="My pastry and how to buy it">
+        <link rel="icon" href="heart.png" 
+        type="image/x-icon">
+        <title>MAYummy десерты в Санкт-Петербурге</title>
+    </head>
+<body>
+        
+        <h1>Добро пожаловать в МайЯмми!</h1>
+        <p>Здесь вы можете заказать муссовые торты и пирожные из натуральных и качественных ингредиентов)
+        </p>
+        <hr>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#order">Как заказать</a>
+                </li>
+                <li>
+                    <a href="catalog.html">Каталог</a>
+                </li>
+                <li>
+                    <a href="about.html">Обо мне</a>
+                </li>
+                <li>
+                    <a href="aboutcakes.html">О десертах</a>
+                </li>
+                <li>
+                    <a href="#contactme">Контакты</a>
+
+                </li>
+            </ul>
+        </nav>
+        <hr>
+        <img src="img/cakes.jpg" alt="десерты">
+
+    <p><article id="order"></article> </p>
+    <p>
+  Делать заказ лучше заранее, минимум за 5 дней. Чтобы сделать заказ,нажмите на кнопку
+  <a href="#contactme">Контакты</a> 
+  либо заполните небольшую анкету ниже. </p>
+  <form action="https://httpbin.org/get" method="get">
+
+    <p>
+    <label for="type">Выберите десерт</label>
+    <select name="type" id="type">
+ <optgroup label="Торты">
+    <option value="cake">ШокоЯмми</option>
+    <option value="cake">Фундук</option>
+    <option value="cake">Манго-Маракуйя</option>
+ </optgroup>
+ <optgroup label="Пирожные">
+    <option value="cake">Минишок</option>
+    <option value="cake">Манго</option>
+    <option value="cake">Мандарин</option>
+    <option value="cake">Личи</option>
+ </optgroup></p>
+</select> 
+    <p>
+      
+  <label for="date">К какому числу нужен десерт?</label>
+  <input type="date" name="date" id="date" placeholder="01.01."
+  pattern="[0-9]{1}.[0-9]{1}" required>
+  </p>
+  <label for="people">На сколько человек нужен десерт?</label>
+  <input type="people" name="people" id="people" 
+  pattern="[0-9]{2}" required>
+  
+  </p>
+  <br>
+
+
+    <label for="message">Дополнительные пожелания можно написать здесь:</label>
+    <br>
+    <textarea name="message" id="message" cols="30" rows="10"
+    placeholder="Type your message here"></textarea>
+
+    <p>
+    <button type="submit">Отправить</button>
+    
+    <button type="reset">Очистить</button>
+    </p>
+    <p>
+        <article id="contactme">
+       <ul>
+        <li>
+            Самовывоз у метро Приморская.
+        </li>
+        <li>
+            Возможна доставка до вашего метро.
+        </li>
+       </ul>
+        <p>Связаться со мной <a href="tel:+79111866437">по телефону</a> </p>
+        </p>
+        <p><a href="#">В начало</a>
+        </p>
+</body>
+</html>
